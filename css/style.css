@@ -55,4 +55,9 @@ color: #FFC300;
     font-family: Arial;
     font-size: 40px;
    }
+
+.centered h3{
+    font-family:sans-serif;
+    font-style:italic;
+   }
             /*home page styling */     
