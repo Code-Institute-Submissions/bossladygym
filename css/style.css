@@ -88,3 +88,226 @@ color: #FFC300;
   font-size: 30px;
   font-style: italic;
 }
+
+#sidebar{
+   float: right;
+   width:30%;
+   background:#333;
+   color:#fff;
+   padding: 10px;
+   box-sizing: border-box;
+   text-align: justify;
+}
+
+
+#sidebar h2{
+  text-align:center;
+  color: #FFC300;
+  text-transform: uppercase;
+  font-family: lato;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+
+#sidebar p{
+  font-style:italic;
+}
+            /*about us styling*/
+
+            /*Membership styling*/
+
+
+.member-header{
+  text-align: center;
+  color: #FFC300;
+  text-transform: uppercase;
+  font-family: lato;
+  font-size:30px;
+  letter-spacing: 3px;
+}
+
+/*.col-sm-12, .col-md-4, .col-lg-4 h1{
+font-size: 23px;
+text-transform: uppercase;
+font-family: sans-serifs;
+}
+
+.col-sm-12, .col-md-4, .col-lg-4 p{
+text-transform: none;
+font-family: sans-serifs;
+font-size: 20px;
+}
+*/
+
+.col-6, .col-md-4 h1{
+font-size: 23px;
+text-transform: uppercase;
+font-family: sans-serifs;
+}
+
+.col-6, .col-md-4 p{
+text-transform: none;
+font-family: sans-serifs;
+font-size: 20px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+
+.btn{
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: grey;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+                /*Membership styling*/
+
+                /*contact us form*/
+#form{
+	padding: 30 0;
+	clear:both;
+	background:url(../imgs/pilates.jpg);
+	background-size:cover;
+	background-position:center;
+	height:700px;
+  color:#000;
+}
+
+#form-container{
+	color:#fff;
+	background color: rgba(60,60,60,0.8);
+	margin:0 auto;
+	padding:30px;
+  position: relative;
+
+}
+
+.fc-overlay{
+  padding: 20px;
+  background-color: rgba(225, 225, 225, 0.9);
+}
+
+
+#form-container h1{
+	text-transform:uppercase;
+    font-family: Oswald;
+    letter-spacing: 7px;
+    color: #666666;
+    text-align: center;
+}
+
+.contactus{
+  color:#000;
+}
+
+.signup-form{
+	margin-top:35px;
+}
+
+
+label{
+    line-height: 100%;
+    margin-bottom: 5px;
+    font-size: 14px;
+    padding:0;
+    color:black;
+    font-weight: 500;
+   text-transform: uppercase;
+  }
+
+  .text{
+  	background-color: transparent;
+    color: #fff;
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(254, 254, 254, 0.3);
+    border-radius: 5px;
+  }
+
+  input:hover, input:focus {
+    border-color: #fff;
+    color:#000;
+    font-size:10px;
+  }
+
+  legend{
+      margin-bottom: 15px;
+      text-align: center;
+      color:black;
+      text-transform: uppercase;
+      font-weight: 300;
+  }
+
+.join-button {
+      border-radius: 3px;
+      color:#999999;
+      padding: 15px 32px;
+      text-align: center;
+      font-size: 16px;
+  }
+
+                /*contact us form*/
+
+                /*footer*/
+footer{
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding:20px;
+	margin-top: 20px;
+  }
+
+.Address{
+width:100%;
+height: 50px;
+margin: auto;
+  }
+
+.icons{
+width:100%;
+height: 80px;
+margin: auto;
+  }
+
+
+.socials{
+	text-align: center;
+  }
+
+.socials li{
+	display:inline;
+  }
+
+.socials i{
+	font-size:160%;
+	margin:1%;
+	padding:5%;
+	color:#white;
+  }
+
+                /*footer*/
+
+                /*media queries*/
+@media(max-width: 768px){
+    #main,#sidebar{
+    float:none;
+    width:100%; /* so it takes the full length of any screen*/
+    }
+
+  .join-button{
+    width: 100%;
+
+    }
+}
