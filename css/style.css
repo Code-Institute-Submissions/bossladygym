@@ -61,3 +61,30 @@ color: #FFC300;
     font-style:italic;
    }
             /*home page styling */     
+            
+            /*About us styling*/
+.aboutcontainer h1{
+    text-align:center;
+    color: #FFC300;
+    text-transform: uppercase;
+    font-family: lato;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+
+#main{
+	float: left;
+	width: 70%;
+	padding: 0 30px;
+	box-sizing: border-box;
+	text-align: justify;
+    height: 500px;
+}
+
+#main h1{
+  font-weight:lighter;
+  text-align:center;
+  font-size: 30px;
+  font-style: italic;
+}
