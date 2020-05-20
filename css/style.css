@@ -131,6 +131,7 @@ color: #FFC300;
 .card-link {
   bottom: 1rem;
   position: absolute;
+  font-weight: bolder;
 }
 
 .card {
