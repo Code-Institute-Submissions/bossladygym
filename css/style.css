@@ -11,6 +11,12 @@ body{
 }
 
             /*Navbar styling code*/
+.container-fluid{
+	width: 90%;
+	margin:auto;
+	overflow: hidden;
+    background: black;
+}
 
 .sticky {
     position: fixed;
@@ -18,22 +24,6 @@ body{
     width: 100%;
     z-index: 1000;
     background: white;
-}
-.icon-bar {
-  background: black;
-}
- /*           
-.container-fluid{
-	width: 90%;
-	margin:auto;
-	overflow: hidden;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index:1000;
 }
 
 .navbar-nav{
@@ -43,10 +33,14 @@ body{
   font-family: Lato;
 }
 
+.icon-bar {
+  background: black;
+}
 
 .navbar-nav li a{
 color: #FFC300;
-}*/
+}
+        
             /*Navbar styling code*/
 
             /*home page styling */
