@@ -72,6 +72,11 @@ color: #FFC300;
             /*home page styling */     
             
             /*About us styling*/
+
+#about-us{
+    padding-top: 30px;
+}         
+
 .aboutcontainer h1{
     text-align:center;
     color: #FFC300;
@@ -117,12 +122,12 @@ color: #FFC300;
   letter-spacing: 3px;
 }
 
-            /*about us styling*/
+/*-----------------about us styling--------------*/
 
             /*Membership styling*/
 
 #membership {
-  padding: 20px 0px 30px 0px;
+  padding: 30px 0px 30px 0px;
 }
 
 .card-link {
@@ -138,7 +143,8 @@ color: #FFC300;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
     padding: 0px 15px 0px 15px;
-    height: 200px;
+    height: 300px;
+   margin-bottom: 1rem;
 }
 
 .member-header{
@@ -151,20 +157,20 @@ color: #FFC300;
 }
 
 
-.col-6, .col-md-4 h3{
+.card h3{
 font-size: 23px;
 text-transform: none;
 font-family: Lato;
 }
 
-.col-6, .col-md-4 h6{
+.card h6{
 font-size: 20px;
 text-transform: none;
 font-family: Lato;
 }
 
 
-.col-6, .col-md-4 p{
+.card p{
 text-transform: none;
 font-family: Lato;
 font-size: 19px;
@@ -175,8 +181,7 @@ font-size: 19px;
 
                 /*contact us form*/
 #form{
-	padding: 30 0;
-	clear:both;
+	padding-top: 15px;
 	background:url(../imgs/pilates.jpg);
 	background-size:cover;
 	background-position:center;
@@ -184,13 +189,9 @@ font-size: 19px;
   color:#000;
 }
 
-#form-container{
-	color:#fff;
-	background color: rgba(60,60,60,0.8);
-	margin:0 auto;
-	padding:30px;
-  position: relative;
-
+.form-wrapper{
+    display: flex;
+    justify-content: center;
 }
 
 .fc-overlay{
@@ -199,7 +200,7 @@ font-size: 19px;
 }
 
 
-#form-container h1{
+.form-wrapper h1{
 	text-transform:uppercase;
     font-family: Oswald;
     letter-spacing: 7px;
@@ -237,11 +238,6 @@ label{
     border-radius: 5px;
   }
 
-  input:hover, input:focus {
-    border-color: #fff;
-    color:#000;
-    font-size:10px;
-  }
 
   legend{
       margin-bottom: 15px;
@@ -249,14 +245,6 @@ label{
       color:black;
       text-transform: uppercase;
       font-weight: 300;
-  }
-
-.join-button {
-      border-radius: 3px;
-      color:#999999;
-      padding: 15px 32px;
-      text-align: center;
-      font-size: 16px;
   }
 
                 /*contact us form*/
