@@ -10,7 +10,7 @@ body{
 	margin: 0;
 }
 
-            /*Navbar styling code*/
+            /*------------Navbar code-------------------*/
 .container-fluid{
 	width: 90%;
 	margin:auto;
@@ -42,9 +42,9 @@ body{
 color: #FFC300;
 }
         
-            /*Navbar styling code*/
+            /*------------Navbar code---------------------------*/
 
-            /*home page styling */
+            /*------------home page code------------------------*/
 .content-wrapper{
   position: relative;
   text-align: center;
@@ -69,9 +69,9 @@ color: #FFC300;
     font-family:arial;
     font-style:italic;
    }
-            /*home page styling */     
+            /*------------home page code---------------------*/    
             
-            /*About us styling*/
+            /*------------about us page code----------------*/
 
 #about-us{
     padding-top: 30px;
@@ -122,9 +122,9 @@ color: #FFC300;
   letter-spacing: 3px;
 }
 
-/*-----------------about us styling--------------*/
+            /*------------about us page code------------------*/
 
-            /*Membership styling*/
+            /*------------membership page code----------------*/
 
 #membership {
   padding: 30px 0px 30px 0px;
@@ -177,9 +177,9 @@ font-size: 19px;
 }
 
 
-            /*Membership styling*/
+            /*------------membership page code-------------*/
 
-                /*contact us form*/
+            /*-----------contact us page code-------------*/
 #form{
 	padding-top: 15px;
 	background:url(../imgs/pilates.jpg);
@@ -247,9 +247,9 @@ label{
       font-weight: 300;
   }
 
-                /*contact us form*/
+               /*-----------contact us page code-------------*/
 
-                /*footer*/
+               /*-----------footer code----------------------*/
 footer{
 	background-color: #333;
 	color: #fff;
@@ -286,13 +286,13 @@ margin: auto;
 	color:#white;
   }
 
-                /*footer*/
+               /*-----------footer code----------------------*/
 
-                /*media queries*/
+               /*-----------media queries code --------------*/
 @media(max-width: 768px){
     #main,#sidebar{
     float:none;
-    width:100%; /* so it takes the full length of any screen*/
+    width:100%; 
     }
 
   .join-button{
