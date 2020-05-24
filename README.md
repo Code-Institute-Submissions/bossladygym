@@ -1,14 +1,22 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<img src="yo.png" style="margin: 0;">
 
+BOSS LADY GYM
 
-Boss Lady Gym
+Milestone project 1: User-Centric Frontend Development - Code Institute
+
 There is an abundance of research that shows that 34% of women work out compared to 28% of men (Sen, N., 2019. Navigating through masculine spaces: women in the gym.), there is a lack of published studies in women health and fitness data that inform policies surrounding fitness, diets and medical advice and how much testosterone affects women’s productivity in gyms. Yet, there is a scarcity of spaces and equipment specifically engineered for the ever changing phases of women lives.
 
 Boss Lady gym is the first ever women only gym in women wonderland with classes and equipments specifically designed for the female body. This gym is also a world pioneer of female fitness mentors for every boss lady at our gym.
 
+
+DEMO
+A live demo version can be found HERE
+
+
 UX
 This website is for fitness enthusiast women aged 13 and above and is looking to achieve privacy and fitness with like-minded women. This website is the best way to help them achieve this as it specifies various membership types as well as where to reach.
 
+USER STORIES
 * As a user, I want to see the navigation links legibly so that I can navigate around the website successfully and easily.
 * As a user, I want to be able to click on the Home, about us, membership and contact us page and be taken there seamlessly.
 * As a user, I want to see consistent information across my laptop/desktop, iPhone and tablet.
@@ -21,7 +29,6 @@ This website is for fitness enthusiast women aged 13 and above and is looking to
 * As a user, I want to visibly see the gym’s address in a legible manner so I can pay a visit to the gym if I want.
 * As a user, I should be able to scroll with ease on every web page without struggling to see information hidden by the sides.
 
-
 ACCEPTANCE CRITERIA
 1. Clicking on any of the navigation links should take the user to the required webpage.
 2. Website information should be consistent across various devices.
@@ -29,12 +36,29 @@ ACCEPTANCE CRITERIA
 4. Form should be validated and highlight incorrect email addresses.
 5. Floats are properly implemented to avoid loss of information and uniformity.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+STRATEGY
+The goal of the design was to make an easy, seamless and informative website using a friendly user design.
+
+SCOPE
+To provide visitors with a short overview of the background of the gym, its history and membership options in a positive light.
+
+STRUCTURE
+The structure of this website promotes ease of navigation. With the navigation bar always available for easy manoeuvre across pages. The page is structured to spark the users interest enough to contact the gym.
+
+SKELETON
+Balsamiq was used for our wireframe.
+
+SURFACE
+The colours yellow and black were used to create a less busy feel. Regarding fonts, a variety were used including Lato, Roboto, Arial, Helvetica and sans-serif.
+
+TECHNOLOGIES
+HTML - To create a basic site.
+CSS - To style our html.
+Bootstrap- To improve responsiveness.
+Balsamiq- To create wireframes.
+
 
 FEATURES
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-
-Existing Features
 * Feature 1 - Navigation links that takes users to the selected pages.
 * Feature 2,3,4,5- Home page, about us page, membership page and contact us form pages.
 * Feature 6 - social media links that redirect to social media pages.
@@ -45,17 +69,6 @@ FEATURES LEFT TO IMPLEMENT
 * Downloadable free 24hr  gym pass button on home page.
 * Extra button beside free gym pass button called “know more” and redirects to home about-us page.
 * On the membership page, the “get started” button would be “select” and automatically places selection in a basket for checkout.
-
-TECHNOLOGIES USED
-* HTML & CSS
-    * The project uses HTML  for the structure of the website and CSS for styling.
-* Bootstrap
-    * The project uses Bootstrap.
-* HTML/CSS Formatter 
-    * The project uses the above to align code better ( https://webformatter.com/html)
-
- * Balsamiq
-    * The project uses the above for its wireframe .  
 
 
 TESTING
@@ -100,17 +113,52 @@ TESTING
     * Information is consistent on mobile, iPad and desktop screen sizes.
 
 DEPLOYMENT
-Project is hosted on githubpages.
+This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
+To run locally, this repository  can be cloned directly into any editor.
+
 
 CREDITS
-
 Content
-* Most part of the code was crosschecked using bootstrap and w3schools.com
+* Most part of the code was written by me and crosschecked with bootstrap and w3schools.com
 
 Media
 * The photos used in this site were free and obtained from my canvas account.
 
 Acknowledgements
 * I received inspiration for this project from my sisters and girlfriends who have always wanted a women’s only gym.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
