@@ -73,7 +73,7 @@ Balsamiq- To create wireframes.
 * Feature 6 - social media links that redirect to social media pages.
 
 
-# FEATURES LEFT TO IMPLEMENT
+##FEATURES LEFT TO IMPLEMENT
 
 * Assistive technology for blind, deaf and visually impaired people.
 * Downloadable free 24hr  gym pass button on home page.
