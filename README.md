@@ -1,5 +1,3 @@
-<img src="yo.png" style="margin: 0;">
-
 BOSS LADY GYM
 
 Milestone project 1: User-Centric Frontend Development - Code Institute
@@ -72,45 +70,11 @@ FEATURES LEFT TO IMPLEMENT
 
 
 TESTING
-1. Home page:
-    * When I click on the logo, it takes me to the home page.
-    * When I click on the home page, the home page is visible.
-    * The home page contains adequate information about what the gym is about.
-    * the navigation bar is also visible and I can travel from the home page to the about us page by scrolling down smoothly or clicking the about us page button in the navigation bar.
-    * Information is consistent on mobile, iPad and desktop screen sizes.
+All links will function and the social media links will open the official pages of facebook, twitter and instagram. The “Get started“ link on the membership page will return us to the home page while “submit” button in the form page will return an error message when an incorrect email address is used and return a 405 error message when finally submitted with the correct details. Bootstrap is used for buttons.
 
-2. About us  page:
-    * When I click on the about us page , it takes me to the about us page.
-    * The about us  page contains adequate information about what the gym is about.
-    * the navigation bar is also visible and I can travel from the home page to the about us page by scrolling down smoothly or clicking the about us page button in the navigation bar.
-    * Information is consistent on mobile, iPad and desktop screen sizes.
-
-3. Membership page:
-    * When I click on the membership it takes me to the membership page.
-    * The membership page contains the different membership pages adequately explained and a clickable button per option.
-    * The navigation bar is also visible and I can travel from the home page to the about us page by scrolling down smoothly or clicking the about us page button in the navigation bar.
-    * Information is consistent on mobile, iPad and desktop screen sizes.
-
-4. Contact us form:
-    * When I click on the contact us page, it takes me to the contact us page.
-    * When I try to submit an empty form, it tells me to please fill in the fields.
-    * When I try to submit the form with an invalid email address, I get an error message “please include an @ in the email address. An @ is missing in ….”.
-    * Try to submit the form with an invalid email address and verify that a relevant error message appears
-    * When I try to submit the form, I get an error unsupported message because this is not in the scope of this project.
-    * The navigation bar is also visible and I can travel from the home page to the about us page by scrolling down smoothly or clicking the about us page button in the navigation bar.
-    * Information is consistent on mobile, iPad and desktop screen sizes.
-
-5. Navigation bar:
-    * Navigation links work accurately.
-    * Navigation bar is sticky and follows the scroll of the page.
-    * The logo sits comfortably and visibly in the navigation bar.
-    * Information is consistent on mobile, iPad and desktop screen sizes.
-
-6. Footer:
-    * The footer contains more information about the gym - the address, phone number and social media links with the correct icons.
-    * The social media links redirect to the various social media pages in a new tab.
-    * The navigation bar is still visible and I can travel from the home page to the about us page by scrolling down smoothly or clicking the about us page button in the navigation bar.
-    * Information is consistent on mobile, iPad and desktop screen sizes.
+This site was tested across multiple screen sizes on Chrome, Safari and Internet Explore To ensure compatibility and responsiveness. 
+When the webpage is visited on larger screens, the whole navigation bar appears complete with navigation buttons and logo on the left. While on smaller screens, the hamburger button will appear with drops down to reveal navigation links.
+The navigation bar is visible and travels from the top pf the screen as the user scrolls down the webpage.
 
 DEPLOYMENT
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
