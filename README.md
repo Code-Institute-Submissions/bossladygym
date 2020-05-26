@@ -1,16 +1,10 @@
 # BOSS LADY GYM
 
-Milestone project 1: User-Centric Frontend Development - Code Institute
+### Milestone project 1: User-Centric Frontend Development - Code Institute
 
 There is an abundance of research that shows that 34% of women work out compared to 28% of men (Sen, N., 2019. Navigating through masculine spaces: women in the gym.), there is a lack of published studies in women health and fitness data that inform policies surrounding fitness, diets and medical advice and how much testosterone affects women’s productivity in gyms. Yet, there is a scarcity of spaces and equipment specifically engineered for the ever changing phases of women lives.
 
 Boss Lady gym is the first ever women only gym in women wonderland with classes and equipments specifically designed for the female body. This gym is also a world pioneer of female fitness mentors for every boss lady at our gym.
-
-
-# DEMO
-
-A live demo version can be found HERE
-
 
 # UX
 
@@ -73,7 +67,7 @@ Balsamiq- To create wireframes.
 * Feature 6 - social media links that redirect to social media pages.
 
 
-##FEATURES LEFT TO IMPLEMENT
+## FEATURES LEFT TO IMPLEMENT
 
 * Assistive technology for blind, deaf and visually impaired people.
 * Downloadable free 24hr  gym pass button on home page.
